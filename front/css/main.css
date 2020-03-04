@@ -1,0 +1,115 @@
+body{
+  font-family: -apple-system,BlinkMacSystemFont,"Helvetica Neue","Hiragino Kaku Gothic ProN",YuGothic,"Yu Gothic",Verdana,Meiryo,sans-serif;
+  margin-right: auto;
+  margin-left : auto;
+  width:80%;
+  background-color:#eee;}
+  fieldset{
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 50px;
+}
+
+span{
+font-size: 14px;
+font-weight: bold;
+padding-right: 10px;
+float: right;}
+
+legend,
+form label{
+  font-weight: bold;
+}
+
+legend{
+  margin-bottom: 32px;;
+}
+
+
+ form input,
+    form textarea,
+    form label,
+    form button {
+      max-width: 320px;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    form div {
+      display: flex;
+      flex-direction: column;
+    }
+
+    form input {
+      height: 30px;
+    }
+
+    form textarea {
+      resize: none;
+    }
+
+form button{
+  margin: auto;
+  margin-top: 32px;
+  width: 100px;
+  height: 35px;
+  border-radius: 25px;
+  float: right;
+  position: relative;
+  font-weight: bold;
+  padding: 0.25em 0.5em;
+  text-decoration: none;
+  color: #eee;
+  background: #005ab3;
+  transition: .4s;
+}
+
+form button:hover {
+  background: #eee;
+  color: #005ab3;
+  /* color: white; */
+  cursor: pointer;
+}
+
+
+
+ table{
+   width: 100%;
+  border-collapse:collapse;
+  margin:0 auto;
+}
+td,th{
+  padding:10px;
+}
+td{text-align: right;}
+th{
+  color:#fff;
+  background:#005ab3;
+  text-align: center;
+}
+table tr:nth-child(odd){
+  background:#e6f2ff;
+}
+
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 1;
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 100%;
+      overflow: auto;
+      background-color: rgba(2, 1, 1, 0.5);
+    }
+
+    .modal-content {
+      background-color: white;
+      width: 500px;
+      margin: 30% auto;
+    }
+.chart{
+  width:100%; 
+  height:250px;
+  background-color: white;}
